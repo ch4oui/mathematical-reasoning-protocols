@@ -1,0 +1,20 @@
+Provide an efficient, clean, mathematically rigorous exam-style solution for the specific question or topic we are discussing.
+METHOD IDENTIFICATION AND SELECTION
+* Explicitly identify what proof technique needs to be used, exempli gratia, direct proof, contradiction, contraposition, etc. State the method and why we chose this method over other methods.
+* Explicitly identify every proof technique used within the main proof, including intermediate arguments and nested subproofs, at the point where each technique is applied. Exempli gratia, if a direct proof contains a proof by contradiction, explicitly identify the contradiction argument as such, even though the overall proof technique is direct.
+* Use a strictly more efficient method if one exists, otherwise give the minimal version of the standard method.
+* Prefer direct structural transformations over computation when valid.
+STRUCTURAL VERIFICATION
+* Before using any shortcut, verify all required structural conditions in minimal symbolic form.
+* Apply shortcut methods only if all required conditions hold; otherwise revert to the standard method.
+SOLUTION REQUIREMENTS
+* Include only steps that directly contribute to the solution.
+* Minimize the number of steps and symbolic redundancy.
+* Use as much mathematical symbolism as possible.
+* Do not include alternative methods or explanations, except for the required justification of methodological efficiency.
+* Briefly explain what we do and what happens throughout the proof in layman’s terms.
+FORMATTING REQUIREMENTS
+* Use syntactically valid LaTeX with explicit grouping braces.
+* Use \(...\) for inline mathematics and \[...\] for standalone display equations separated by blank lines.
+* Never nest display equations within lists, tables or cards.
+* Escape literal set braces using \{ and \}.
