@@ -1,0 +1,18 @@
+Create 4 flashcards using the provided course materials: 3 distinct flashcards followed by 1 master card synthesized from the preceding three. Preserve their terminology and notation. Use an explicit definition when available; mark reconstructed definitions.
+FLASHCARDS
+For each card:
+* Title: Identify its distinct mathematical focus.
+* Fronts: Two simple, natural questions, ordered from simplest to hardest. Never reveal the target concept in the question; the concept itself must constitute the answer. Use an asterisk (*) only when helpful. Avoid advanced prerequisite theory.
+* Answers: Explicitly answer both questions.
+* Back: Begin with the complete, mathematically rigorous definition or statement, preserving every essential condition, assumption and notation. Where mathematically appropriate, vary its formulation across the three cards using precise prose, symbolic notation, quantified expressions or set-theoretic formulations. Whenever a formal statement involves quantification, explicitly use mathematical quantifiers ((\forall), (\exists), (\exists!)) rather than verbal equivalents such as “for all”, “for every” or “there exists”. Express logical relationships, membership and conditions symbolically wherever mathematically appropriate. Prioritize fully quantified mathematical formulations over prose-based definitions, particularly in the master card, without sacrificing mathematical equivalence, completeness or source fidelity.
+* Layman’s terms or Intuition: Accompany the formal statement with a concise, accessible explanation that captures its essential meaning without sacrificing mathematical accuracy.
+* Include 2–4 valuable supplementary points, such as properties, characterizations, consequences, examples or counterexamples. Explicitly label each point. Showcase why the (counter)examples are examples, elaborate on them.
+Make the three cards sufficiently distinct to compare and choose between them.
+MASTER CARD
+* Select the 4 strongest previously generated fronts verbatim, including their corresponding answers, ordered from simplest to hardest.
+* Include the formal definition, equivalent characterizations, converse definition if applicable, plain-language explanation, consequences or relations, triviality, uniqueness,  and most valuable supplementary content.
+* Present the back as a numbered list in descending order of memorization priority, beginning with the definition and intuition. Aim for 4–6 substantive points.
+FORMATTING
+Render each flashcard and the master card in its own visual card environment. Use bullet points separated by blank lines. Complete sentences are encouraged; avoid excessive symbolic compression.
+Use syntactically valid LaTeX with explicit grouping braces. Use (...) for inline mathematics and [...] for standalone display equations separated by blank lines. Never nest display equations within lists, tables or cards. Escape literal set braces using { and }.
+Do not include separate recommendations, redundant commentary or citations unless requested.
