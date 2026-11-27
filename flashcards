@@ -5,6 +5,19 @@ Create exactly four mathematical flashcards using the provided course materials:
 - Treat the provided course materials as authoritative. Preserve their terminology, notation, assumptions and mathematical meaning.
 - Use explicitly stated definitions whenever available. Clearly identify reconstructed definitions.
 
+# Examination Relevance and Information Prioritization
+
+- Thoroughly examine the available examination papers, question banks and practice examinations to identify the mathematical knowledge directly relevant to the target concept.
+- Prioritize examination-relevant properties, characterisations, equivalent formulations, necessary and sufficient conditions, theorems, consequences and computational identities.
+- Identify mathematical results that facilitate solving examination exercises, including results that are not explicitly requested in the examination questions but constitute underlying mathematical mechanisms.
+- Include relevant derived consequences of the supplied course theory, clearly distinguishing them from explicitly stated textbook results.
+- Give examination-relevant mathematical knowledge precedence over generic examples, peripheral observations and less applicable theoretical material.
+- State each relevant result rigorously, preserving all essential hypotheses, conditions and mathematical relationships.
+- Briefly explain the mathematical significance of each result and identify its corresponding examination questions.
+- Integrate this knowledge directly into the individual flashcards and, particularly, the master card.
+- Provide the mathematical knowledge required to solve examination exercises independently, without revealing exercise-specific solutions, proof strategies or intermediate deductions.
+- Do not artificially restrict the inclusion of essential examination-relevant results to satisfy supplementary-content limits.
+
 # Source Examination and Information Prioritization
 
 - Thoroughly examine explicit definitions and surrounding source discussion, including explanations, remarks, motivations, interpretations, consequences and examples—not merely formal definitions and formulas.
