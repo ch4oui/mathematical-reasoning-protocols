@@ -24,9 +24,7 @@ Identify the card's distinct mathematical focus.
 ## Fronts
 
 - Provide two simple, natural questions, ordered from simplest to hardest.
-- Never reveal the target concept in either question; the concept itself must constitute the answer.
-- Use an asterisk (*) only when helpful.
-- Avoid advanced prerequisite theory.
+- Replace the target concept with an asterisk (\*) whenever it would otherwise appear in the question itself.
 
 ## Answers
 
