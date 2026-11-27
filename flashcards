@@ -1,23 +1,88 @@
-Create 4 flashcards using the provided course materials: 3 distinct flashcards followed by 1 master card synthesized from the preceding three. Preserve their terminology and notation. Use an explicit definition when available; mark reconstructed definitions.
-**SOURCE EXAMINATION AND INFORMATION PRIORITIZATION**
-* Thoroughly examine explicit definitions and surrounding source discussion, including explanations, remarks, motivations, interpretations, consequences and examples—not merely formal definitions and formulas.
-* Identify the conceptual kernel: what the concept represents, what information it provides, why it is introduced, what distinguishes it from related concepts and what mathematical or statistical purpose it serves.
-* Prioritize concept-specific information explicitly emphasized in the course materials, preserving substantive authorial observations beyond the formal definition.
-* Explicitly include triviality, uniqueness, equivalent formulations and computational details wherever mathematically applicable. Exclude restatements of prerequisites, observations immediately derivable from established properties, redundant information and content primarily belonging to other concepts.
-**FLASHCARDS**
-For each card:
-* Title: Identify its distinct mathematical focus.
-* Fronts: Two simple, natural questions, ordered from simplest to hardest. Never reveal the target concept in the question; the concept itself must constitute the answer. Use an asterisk (*) only when helpful. Avoid advanced prerequisite theory.
-* Answers: Explicitly answer both questions.
-* Back: Begin with the complete, mathematically rigorous definition or statement, preserving every essential condition, assumption and notation. Where mathematically appropriate, vary its formulation across the three cards using precise prose, symbolic notation, quantified expressions or set-theoretic formulations. Whenever a formal statement involves quantification, explicitly use mathematical quantifiers ((\forall), (\exists), (\exists!)) rather than verbal equivalents such as “for all”, “for every” or “there exists”. Express logical relationships, membership and conditions symbolically wherever mathematically appropriate. Prioritize fully quantified mathematical formulations over prose-based definitions, particularly in the master card, without sacrificing mathematical equivalence, completeness or source fidelity.
-* Layman’s terms or Intuition: Accompany the formal statement with a concise, accessible explanation that captures its essential meaning without sacrificing mathematical accuracy.
-* Include 2–4 valuable supplementary points, such as properties, characterizations, consequences, examples or counterexamples. Explicitly label each point. Showcase why the (counter)examples are examples, elaborate on them.
-Make the three cards sufficiently distinct to compare and choose between them.
-**MASTER CARD**
-* Select the 4 strongest previously generated fronts verbatim, including their corresponding answers, ordered from simplest to hardest.
-* Include the formal definition, equivalent characterizations, converse definition if applicable, plain-language explanation, consequences or relations, triviality, uniqueness,  and most valuable supplementary content.
-* Present the back as a numbered list in descending order of memorization priority, beginning with the definition and intuition. Aim for 4–6 substantive points.
-**FORMATTING**
-Render each flashcard and the master card in its own visual card environment. Use bullet points separated by blank lines. Complete sentences are encouraged; avoid excessive symbolic compression.
-Use syntactically valid LaTeX with explicit grouping braces. Use (...) for inline mathematics and [...] for standalone display equations separated by blank lines. Never nest display equations within lists, tables or cards. Escape literal set braces using { and }.
-Do not include separate recommendations, redundant commentary or citations unless requested.
+Create exactly four mathematical flashcards using the provided course materials: three distinct flashcards followed by one master card synthesized from the preceding three.
+
+# Source Fidelity
+
+- Treat the provided course materials as authoritative. Preserve their terminology, notation, assumptions and mathematical meaning.
+- Use explicitly stated definitions whenever available. Clearly identify reconstructed definitions.
+
+# Source Examination and Information Prioritization
+
+- Thoroughly examine explicit definitions and surrounding source discussion, including explanations, remarks, motivations, interpretations, consequences and examples—not merely formal definitions and formulas.
+- Identify the conceptual kernel: what the concept represents, what information it provides, why it is introduced, what distinguishes it from related concepts and what mathematical or statistical purpose it serves.
+- Prioritize concept-specific information explicitly emphasized in the course materials, preserving substantive authorial observations beyond the formal definition.
+- Explicitly include triviality, uniqueness, equivalent formulations and computational details wherever mathematically applicable.
+- Exclude restatements of prerequisites, immediately derivable observations, redundant information and content primarily belonging to other concepts, except where explicitly required above.
+
+# Individual Flashcards
+
+Generate three sufficiently distinct flashcards to facilitate comparison and selection. Each must contain:
+
+## Title
+
+Identify the card's distinct mathematical focus.
+
+## Fronts
+
+- Provide two simple, natural questions, ordered from simplest to hardest.
+- Never reveal the target concept in either question; the concept itself must constitute the answer.
+- Use an asterisk (*) only when helpful.
+- Avoid advanced prerequisite theory.
+
+## Answers
+
+Explicitly answer both questions.
+
+## Back
+
+- Begin with the complete, mathematically rigorous definition or statement, preserving every essential condition, assumption and notation.
+- Where mathematically appropriate, vary the formulation across the three cards using precise prose, symbolic notation, quantified expressions or set-theoretic formulations.
+- Express logical relationships, membership and conditions symbolically wherever mathematically appropriate.
+- Accompany the formal statement with a concise, accessible explanation labelled **Layman's terms** or **Intuition**, capturing its essential meaning without sacrificing mathematical accuracy.
+- Include 2–4 valuable supplementary points, such as properties, characterizations, consequences, examples or counterexamples. Explicitly label each point.
+- Explain why each example or counterexample satisfies or violates the relevant defining conditions.
+
+# Master Card
+
+Synthesize the three preceding flashcards into a single comprehensive master card.
+
+## Fronts and Answers
+
+Select the four strongest previously generated fronts verbatim, including their corresponding answers, ordered from simplest to hardest.
+
+## Back
+
+Include the following wherever mathematically applicable:
+
+- Complete formal definition.
+- Equivalent characterizations.
+- Converse definition or statement.
+- Plain-language explanation or intuition.
+- Consequences and relations.
+- Triviality.
+- Uniqueness.
+- Most valuable supplementary content.
+
+Present the back as a numbered list in descending order of memorization priority, beginning with the definition and intuition. Aim for 4–6 substantive points.
+
+# Mathematical Formulation
+
+Apply the following requirements to all four cards:
+
+- Whenever a formal statement involves quantification, explicitly use mathematical quantifiers (\(\forall\), \(\exists\), \(\exists!\)) rather than verbal equivalents such as “for all,” “for every” or “there exists.”
+- Prioritize fully quantified mathematical formulations over prose-based definitions, particularly in the master card.
+- Preserve mathematical equivalence, completeness, quantifier order, domains, assumptions and source fidelity.
+- Use syntactically valid LaTeX with explicit grouping braces.
+- Use `\(...\)` for inline mathematics and `\[...\]` for standalone display equations.
+- Escape literal set braces using `\{` and `\}`.
+
+# Output Formatting
+
+- Render each flashcard and the master card in its own visual card environment.
+- Separate bullet points with blank lines.
+- Encourage complete sentences and avoid excessive symbolic compression.
+- Separate standalone display equations with blank lines. Never nest display equations within lists, tables or cards; use inline mathematics within those environments.
+- Output only the four requested flashcards. Do not include separate recommendations, redundant commentary or citations unless requested.
+
+# Verification
+
+Before responding, verify mathematical correctness, source fidelity, completeness, distinctness of the three individual cards, mandatory content inclusion and compliance with the output requirements.
